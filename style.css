@@ -1,0 +1,57 @@
+.kini {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 90%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.kini thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.kini th, .kini td {
+    padding: 12px 15px;
+}
+
+.kini th {
+    background-color: #618685;
+    color: white;
+}
+
+.kini tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.kini tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.kini tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.kini tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+/* .update, .delete:hover {
+    background-color: #80ced6;
+    color: white;
+} */
+
+.a{
+    color: #009879;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
